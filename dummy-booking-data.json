@@ -1,0 +1,71 @@
+{
+  "hourlyBooking": {
+    "rideType": "hourly",
+    "pickupDate": "2024-12-25",
+    "pickupTime": "14:30",
+    "pickupLocation": "123 Main Street, New York, NY 10001",
+    "destinationLocation": "456 Park Avenue, New York, NY 10022",
+    "hours": 4,
+    "waitingHours": 1,
+    "selectedCarId": 1,
+    "fullName": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1-555-123-4567",
+    "message": "Please arrive 10 minutes early. Thank you!",
+    "createdAt": "2024-12-20T10:30:00.000Z"
+  },
+  "distanceBooking": {
+    "rideType": "distance",
+    "pickupDate": "2024-12-26",
+    "pickupTime": "09:00",
+    "pickupLocation": "JFK International Airport, Queens, NY 11430",
+    "dropoffLocation": "Times Square, New York, NY 10036",
+    "transferType": "one-way",
+    "distanceMiles": 18.5,
+    "waitingHours": 0,
+    "selectedCarId": 2,
+    "fullName": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "phone": "+1-555-987-6543",
+    "message": "Flight number: AA1234",
+    "createdAt": "2024-12-21T15:45:00.000Z"
+  },
+  "roundtripBooking": {
+    "rideType": "roundtrip",
+    "pickupDate": "2024-12-27",
+    "pickupTime": "16:00",
+    "pickupLocation": "789 Broadway, New York, NY 10003",
+    "returnPickupDate": "2024-12-28",
+    "returnPickupTime": "10:00",
+    "waitingHours": 0.5,
+    "selectedCarId": 3,
+    "fullName": "Robert Johnson",
+    "email": "robert.johnson@example.com",
+    "phone": "+1-555-456-7890",
+    "message": "Round trip to wedding venue",
+    "createdAt": "2024-12-22T08:20:00.000Z"
+  },
+  "minimalBooking": {
+    "rideType": "distance",
+    "pickupDate": "2024-12-28",
+    "pickupTime": "12:00",
+    "pickupLocation": "Central Park, New York, NY",
+    "selectedCarId": 1,
+    "fullName": "Alice Williams",
+    "email": "alice.williams@example.com",
+    "phone": "+1-555-321-0987",
+    "createdAt": "2024-12-23T11:15:00.000Z"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
